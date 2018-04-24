@@ -11,7 +11,7 @@ var User = mongoose.model('User', schema, 'users');
 var user = new User({
   name: 'John Smith',
   email: 'john@smith.io',
-    
+
 });
 
 user.save(function(error) {
@@ -31,3 +31,5 @@ user.save(function(error) {
 
 
 =============Initial schema.js=============
+
+schema file changes are not required
