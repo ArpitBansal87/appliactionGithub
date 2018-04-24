@@ -1,0 +1,9 @@
+{
+    "dependecies": {
+        "underscore": "1.5.2"
+    },
+    "dependencies": {
+        "bcrypt": "^2.0.1",
+        "mongoose": "^5.0.16"
+    }
+}
