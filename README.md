@@ -15,6 +15,8 @@ The following steps need to be followed for starting the project:
 
   6. enter the following command after the above command has finished executing: node index.js
 
+  This will lead to execution of the node program inside index.js 
+
   Optional (for initializing mongo shell)
   7. Start 2nd cmd (we will call it CMD-MongoShell)
   8. In CMD-MongoShell enter the following text "mongo"
