@@ -1,0 +1,10 @@
+[
+  {
+    "name":"switches",
+    "type":"ElectricalFitting"
+  },
+  {
+    "name":"sockets",
+    "type":"ElectricalFitting"
+  }
+]
