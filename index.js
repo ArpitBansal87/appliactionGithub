@@ -1,7 +1,7 @@
 var mongoose = require('mongoose');
 var User = require('./user-model');
-
-var connStr = 'mongodb://localhost:27017/test';
+let credentialData = JSON.parse(fs.readFileSync('config/config.json'));
+var connStr = credentialData.dbStringPrefix+credentialData.username+":"+credentialData.password+credentialData.dbDetails+credentialData.environmentDetails.contentDb+credentialData.dbStringSuffix;
 mongoose.connect(connStr, function(err) {
     if (err) throw err;
     console.log('Successfully connected to MongoDB');
@@ -9,14 +9,14 @@ mongoose.connect(connStr, function(err) {
 
 // create a user a new user
 var testUser = new User({
-    username: 'jmar1777',
+    username: 'arpitbansal',
     email:'test1@outlook.com',
-    password: 'testingPass'
+    password: 'testingPass',
+    name: 'Arpit Bansal'
 });
 
-
 // fetch user and test password verification
-User.findOne({ username: 'jmar777' }, function(err, user) {
+User.findOne({ username: 'arpitbansal' }, function(err, user) {
     if (err) throw err;
 
     // test a matching password
@@ -30,11 +30,11 @@ User.findOne({ username: 'jmar777' }, function(err, user) {
         if (err) throw err;
         console.log('123Password:', isMatch); // -&gt; 123Password: false
     });
-     
+
 });
 
-// save user to database
-/*testUser.save(function(err) {
-    if (err) throw err;
-    process.exit(0);
-});*/
+// // save user to database
+// testUser.save(function(err) {
+//     if (err) throw err;
+//     process.exit(0);
+// });

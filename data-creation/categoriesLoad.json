@@ -1,10 +1,149 @@
 [
   {
+    "category_id":"C_001",
+    "is_root_cat": false,
     "name":"switches",
-    "type":"ElectricalFitting"
+    "category_type":"Electrical Fitting",
+    "ancestors":["Switch, Socket And Accessories","Electrical"]
   },
   {
+    "category_id":"c_003",
     "name":"sockets",
-    "type":"ElectricalFitting"
+    "is_root_cat": false,
+    "category_type":"Electrical Fitting",
+    "ancestors":["Switch, Socket And Accessories","Electrical"]
+  },
+  {
+    "category_id":"c_004",
+    "name":"Regulators",
+    "is_root_cat": false,
+    "category_type":"Electrical Fitting",
+    "ancestors":["Switch, Socket And Accessories","Electrical"]
+  },
+  {
+    "category_id":"c_005",
+    "name":"Switch, Socket And Accessories",
+    "is_root_cat": true,
+    "category_type":"Electrical Fitting",
+    "ancestors":["Electrical"]
+  },
+  {
+    "category_id":"c_006",
+    "name":"Geysers",
+    "is_root_cat": false,
+    "category_type":"Electrical Fitting",
+    "ancestors":["Appliances","Electrical"]
+  },
+  {
+    "category_id":"c_007",
+    "name":"Inverters",
+    "is_root_cat": false,
+    "category_type":"Electrical Fitting",
+    "ancestors":["Appliances","Electrical"]
+  },
+  {
+    "category_id":"c_008",
+    "name":"Air Conditioning",
+    "is_root_cat": false,
+    "category_type":"Electrical Fitting",
+    "ancestors":["Appliances","Electrical"]
+  },
+  {
+    "category_id":"c_009",
+    "name":"Split A/C",
+    "is_root_cat": false,
+    "category_type":"Electrical Fitting",
+    "ancestors":["Air Conditioning","Appliances","Electrical"]
+  },
+  {
+    "category_id":"C_002",
+    "name":"Window A/C",
+    "is_root_cat": false,
+    "category_type":"Electrical Fitting",
+    "ancestors":["Air Conditioning","Appliances","Electrical"]
+  },
+  {
+    "category_id":"c_010",
+    "name":"Appliances",
+    "is_root_cat": true,
+    "category_type":"Electrical Fitting",
+    "ancestors":["Electrical"]
+  },
+  {
+    "category_id":"c_011",
+    "name":"Tools",
+    "is_root_cat": true,
+    "category_type":"Hardware",
+    "ancestors":["Hardware"]
+  },
+  {
+    "category_id":"c_012",
+    "name":"Plumbling Tools",
+    "is_root_cat": false,
+    "category_type":"Hardware",
+    "ancestors":["Tools","Hardware"]
+  },
+  {
+    "category_id":"c_013",
+    "name":"Gardening Tools",
+    "is_root_cat": false,
+    "category_type":"Hardware",
+    "ancestors":["Tools","Hardware"]
+  },
+  {
+    "category_id":"c_014",
+    "name":"Miscellaneous",
+    "is_root_cat": true,
+    "category_type":"Miscellaneous",
+    "ancestors":["Miscellaneous"]
+  },
+  {
+    "category_id":"c_015",
+    "name":"Distribution",
+    "is_root_cat": true,
+    "category_type":"Electrical Fitting",
+    "ancestors":["Electrical"]
+  },
+  {
+    "category_id":"c_016",
+    "name":"MCB",
+    "is_root_cat": false,
+    "category_type":"Electrical Fitting",
+    "ancestors":["Distribution","Electrical"]
+  },
+  {
+    "category_id":"c_017",
+    "name":"Distribution Boards",
+    "is_root_cat": false,
+    "category_type":"Electrical Fitting",
+    "ancestors":["Distribution","Electrical"]
+  },
+  {
+    "category_id":"c_018",
+    "name":"Wires",
+    "is_root_cat": true,
+    "category_type":"Electrical Fitting",
+    "ancestors":["Electrical"]
+  },
+  {
+    "category_id":"c_019",
+    "name":"2 axial Wires",
+    "is_root_cat": false,
+    "category_type":"Electrical Fitting",
+    "ancestors":["Wires","Electrical"]
+  },
+  {
+    "category_id":"c_020",
+    "name":"3 Axial Wires",
+    "is_root_cat": false,
+    "category_type":"Electrical Fitting",
+    "ancestors":["Wires","Electrical"]
+  },
+  {
+    "category_id":"c_021",
+    "name":"LED Lighting",
+    "is_root_cat": true,
+    "category_type":"Electrical Fitting",
+    "ancestors":["Electrical"]
   }
 ]

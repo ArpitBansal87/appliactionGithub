@@ -1,16 +1,7 @@
 var mongoose = require("mongoose");
-var Schema = mongoose.Schema;
+var categorySchemaVal = require("./category-schema.js");
+//var Schema = mongoose.Schema;
 
-var CategorySchema = new Schema({
-  name: {
-    type: String,
-    required: true
-  },
-  type: {
-    type: String,
-    required: true,
-    lowercase: true
-  }
-});
+//var CategorySchema = new Schema(categorySchemaVal.categorySchema);
 
-module.exports = mongoose.model('Category',CategorySchema);
+module.exports = mongoose.model('Category',categorySchemaVal);
